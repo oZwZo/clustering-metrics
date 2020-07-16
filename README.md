@@ -18,12 +18,7 @@ in which,
 - $SS_W \text{ : within group variance}$
 
 ### Is it in sklearn ?
-YES!!
-```python
-from sklearn.metrics import calinski_harabaz_score
-# usage:
-CH = calinski_harabaz_score(data,label)
-```
+
 ## 3. Silhouette Coefficient 轮廓系数
 
 $$ S_i = \frac{\beta_i - \alpha_i}{\max(\alpha_i,\beta_i)} $$
@@ -34,11 +29,7 @@ the bigger, the better
 
 ### Is it in sklearn ?
 YES!! 
-```python
-from sklearn.metrics import silhouettee_score
-# usage:
-CH = calinski_harabaz_score(X,label,metric='euclidean')
-```
+
 
 ## 4. Jump method
 
